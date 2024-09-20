@@ -121,7 +121,7 @@ class Modes(object):
         AnalogMode("wfm", "WFM", bandpass=Bandpass(-75000, 75000)),
         AnalogMode("am", "AM", bandpass=Bandpass(-4000, 4000)),
         AnalogMode("lsb", "LSB", bandpass=Bandpass(-3000, -300)),
-        AnalogMode("usb", "USB", bandpass=Bandpass(300, 3000)),
+        AnalogMode("usb", "USB", bandpass=Bandpass(300, 13000)),
         AnalogMode("cw", "CW", bandpass=Bandpass(700, 900)),
         AnalogMode("sam", "SAM", bandpass=Bandpass(-4000, 4000)),
         AnalogMode("usbd", "DATA", bandpass=Bandpass(0, 24000)),
